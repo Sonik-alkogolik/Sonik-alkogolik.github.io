@@ -1,0 +1,129 @@
+.header.pf {
+        height: 150px;
+}
+.conteiner_portfolio {
+        color: #FFFF;
+        max-width:1920px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+}
+.portfolio_content {
+        margin: 0 auto;
+        max-width:1020px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+}
+.portfolio_title {
+        display: flex;
+        flex-direction: column;
+}
+.portfolio_title>span:nth-child(1) {
+        font-family: 'Montserrat',sans-serif;
+        font-style: 100;
+        font-size: 36px;
+        line-height: 54px;
+        color:#326DFF;
+}
+.portfolio_title>span:nth-child(2) {
+        font-family:  HelveticaNeueCyr;
+        font-weight: Bold;
+        font-size: 96px;
+        line-height: 120px;
+}
+.portfolio_cl {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.portfolio_content_item {
+        margin-top: 40px;
+        max-width: 500px;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        background: #326DFF;
+        border-radius:35px;
+       
+}
+.more {
+       display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap; 
+}
+
+.show-more{
+  color:#FFFF;
+}
+.btn_more_portf {
+        margin:30px auto;
+        max-width:900px;
+        width:100%;
+        height:auto;
+        display: flex;
+        border-radius: 16px;
+        justify-content: center;
+       ;
+}
+#btn_show {
+        max-width:294px;
+        width:100%;
+        height:80px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #212122;
+        cursor: pointer;
+
+        font-family: 'Montserrat',sans-serif;
+        font-style: 100;
+        font-size: 20px;
+        color:#FFFFFF;
+}
+
+
+@media (max-width:1050px){
+
+.portfolio_cl{
+    justify-content: center;
+    
+}
+.portfolio_content_item {
+    margin: 20px 5px;
+}
+.portfolio_title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.more {
+    justify-content: center;
+}
+
+}
+@media (max-width:650px){
+.portfolio_title>span:nth-child(2) {
+    font-size: 76px;
+
+}
+
+}
+
+@media (max-width:550px){
+.portfolio_title>span:nth-child(2) {
+    font-size: 64px;
+
+}
+
+}
+@media (max-width:450px){
+.portfolio_title>span:nth-child(2) {
+    font-size: 46px;
+
+}
+
+}
